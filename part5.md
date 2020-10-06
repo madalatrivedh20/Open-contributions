@@ -72,17 +72,17 @@ cv2.destroyAllWindows()<br></tr></table>
 Suppose gray scale values are from 0 (Pure Black) to 255(Pure White) , values greater than threshold will be converted into 1 (White) and below to threshold will be converted into 0 (Black).</li>
   
   <h3>Image captured through webcam initially</h3>
-  <a href="image.png">image</a><br>
+  <img src="image.png"/><br>
    <h3>Gray scale image</h3>
-  <a href="grayscale.png"></a><br>
+  <img src="grayscale.png"/><br>
    <h3>Blurred image</h3>
-  <a href="blur.png"></a><br>
+  <img src="blur.png"/><br>
   <h3>Edges</h3>
-  <a href="edges.png"></a><br>
+  <img src="edges.png"/><br>
   <h3>Threshold image</h3>
-  <a href="threshols.png"></a><br>
+  <img src="threshols.png"/><br>
   <h2>Output</h2>
-  <a href="threshols.png"></a>
+  <img src="threshols.png"/>
   
   
 
