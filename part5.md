@@ -59,8 +59,8 @@ cv2.destroyAllWindows()<br></tr></table>
 &nbsp;&nbsp;         break:&nbsp;&nbsp; It breaks the ongoing activity and closes the dialog box after pressing the enter button.</li></ul><br>
 <table><tr><td>def sketch(image):<br>
 &nbsp;&nbsp;     grayimg=cv2.cvtColor(image,cv2.COLOR_BGR2GRAY)<br>
-&nbsp;&nbsp;     blurimg=cv2.GaussianBlur(img_gray,(3,3),0)<br>
-&nbsp;&nbsp;     edges=cv2.Canny(img_blur,10,80)<br>
+&nbsp;&nbsp;     blurimg=cv2.GaussianBlur(grayimg,(3,3),0)<br>
+&nbsp;&nbsp;     edges=cv2.Canny(blurimg,10,80)<br>
 &nbsp;&nbsp;     ret,mimg=cv2.threshold(edges,50,255,cv2.THRESH_BINARY_INV)<br>
 &nbsp;&nbsp;     return mimg<br></td></tr></table><br>
 
