@@ -70,6 +70,21 @@ cv2.destroyAllWindows()<br></tr></table>
 <li>edges=cv2.Canny(blurimg,10,80): It is executed to extract the edges from the blurred grayscale image.Edge detection is an image processing technique for finding the boundaries of objects within images.It is used to detect a person,license plate or any other things.It works by detecting discontinuities in brightness. It is basically used for image segmentation and data extraction. </li>
 <li>ret,mimg=cv2.threshold(edges,50,255,cv2.THRESH_BINARY_INV):Gray scale image is converted into Binary Image, it uses a threshold. Thresholding is a process of converting image to binary form.In OpenCV thresholding is done on grayscale images, which have pixel values ranging from 0–255. When you threshold an image you classify these pixels into groups setting a upper and lower bound to each group.
 Suppose gray scale values are from 0 (Pure Black) to 255(Pure White) , values greater than threshold will be converted into 1 (White) and below to threshold will be converted into 0 (Black).</li>
+  
+  <h3>Image captured through webcam initially</h3>
+  <a href="image.jpg">image</a><br>
+   <h3>Gray scale image</h3>
+  <a href="gray.jpg">image</a><br>
+   <h3>Blurred image</h3>
+  <a href="blur.jpg">image</a>
+  <h3>Edges</h3>
+  <a href="edges.jpg">img</a>
+  <h3>Threshold image</h3>
+  <a href="threshols.jpg">img</a>
+  <h2>Output</h2>
+  <a href="threshols.jpg">img</a>
+  
+  
 
 
 
