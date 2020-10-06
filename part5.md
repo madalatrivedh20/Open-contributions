@@ -30,18 +30,18 @@ def sketch(image):<br>
 &nbsp;&nbsp;     ret,mimg=cv2.threshold(edges,50,255,cv2.THRESH_BINARY_INV)<br>
 &nbsp;&nbsp;     return mimg<br>
 
-<h4>Capturing video from webcam</h4>
+<h4># Capturing video from webcam</h4>
 vid_capt=cv2.VideoCapture(0)<br>
-<h4>Capturing an image from the video</h4>
+<h4># Capturing an image from the video</h4>
 while True:<br>
-&nbsp;&nbsp;     ret,pic_capt=cap.read()<br>
+&nbsp;&nbsp;     ret,pic_capt=vid_capt.read()<br>
 &nbsp;&nbsp;     cv2.imshow('Your Sketch',getmysketch(pic_capt))<br>
 &nbsp;&nbsp;     # Key13 is ENTER_KEY<br>
 &nbsp;&nbsp;     if cv2.waitKey(1)==13:<br>
 &nbsp;&nbsp;         break<br>
-<h4>releasing_webcam</h4>
+<h4># releasing_webcam</h4>
 vid_capt.release()<br>
-<h4>destroying_window</h4>
+<h4># destroying_window</h4>
 cv2.destroyAllWindows()<br></tr></table>
 
 <h2>Step by step explanation</h2>
