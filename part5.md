@@ -32,7 +32,7 @@ def sketch(image):<br>
 
 <h4># Capturing video from webcam</h4>
 vid_capt=cv2.VideoCapture(0)<br>
-<h4># Capturing an image from the video</h4>
+<h4># Capturing the video frame by frame</h4>
 while True:<br>
 &nbsp;&nbsp;     ret,pic_capt=vid_capt.read()<br>
 &nbsp;&nbsp;     cv2.imshow('Your Sketch',getmysketch(pic_capt))<br>
@@ -53,8 +53,8 @@ cv2.destroyAllWindows()<br></tr></table>
 &nbsp;&nbsp;     if cv2.waitKey(1)==13:<br>
 &nbsp;&nbsp;         break<br></i></td></tr></table>
 <ul><li>vid_capt=cv2.VideoCapture(0): It performs the function to open the webcam and to capture the video.</li>
-<li>ret,pic_capt=cap.read(): It captures a frame or a photo from the video and stores it in the assigned variable.</li>
-<li>cv2.imshow('Your Sketch',getmysketch(pic_capt)): It pops up a dialog box with the sketch image of the frame captured  with the title 'Your Sketch'. To display the sketch image it calls the function as shown 'getmysketch(frame)' </li>
+<li>ret,pic_capt=cap.read(): It captures the video frame by frame.</li>
+<li>cv2.imshow('Your Sketch',getmysketch(pic_capt)): It pops up a dialog box with the sketch of the frame captured  with the title 'Your Sketch'. To display the sketch it calls the function as shown 'getmysketch(frame)' </li>
 <li>if cv2.waitKey(1)==13:<br>
 &nbsp;&nbsp;         break:&nbsp;&nbsp; It breaks the ongoing activity and closes the dialog box after pressing the enter button.</li></ul><br>
 <table><tr><td>def sketch(image):<br>
