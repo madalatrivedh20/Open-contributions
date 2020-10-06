@@ -1,6 +1,6 @@
 <h1>Sketch App using Webcam</h1>
 <h3>Software used</h3><ul><li>Python</li></ul>
-<h3>Technical Stack</h3><ul><li>Python modules : <b>NumPy</b> and <b> OpenCV</b> 
+<h3>Technical Stack</h3><ul><li>Python libraries : <b>NumPy</b> and <b> OpenCV </b> 
 <h3>Numpy</h3>
 <p>NumPy stands for "Numerical python". Numpy is a general-purpose array-processing package. It is used for working with arrays and also in the fields like linear algebra,matrices,etc.
 Numpy provides a high-performance multidimensional array and basic tools to compute with and manipulate these arrays. Numpy arrays are great alternative to python lists.Numpy arrays are fast,effecient and easy to use.</p>
@@ -10,7 +10,7 @@ computer vision projects. All the OpenCV array structures are converted to and f
 Perform face detection. It is used in the fields of Automobile,Security,Transportation,Robotics,etc.</p>
 <h2>Steps to build a Sketch application using webcam</h2>
 <ul><li><b>Step 1</b>:</li>
-<p>Install NumPy and OpenCV modules in the python environment using the command prompt.<br> Enter the following commands:<br>
+<p>Install NumPy and OpenCV libraries in the python environment using the command prompt.<br> Enter the following commands:<br>
 <i>pip install numpy</i><br>
 <i>pip install OpenCV</i></p>
 <li><b>Step 2</b>:</li>
