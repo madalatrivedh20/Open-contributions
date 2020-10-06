@@ -49,7 +49,7 @@ cv2.destroyAllWindows()<br></tr></table>
 <i>vid_capt=cv2.VideoCapture(0)</i><br>
 <i>while True:<br>
 &nbsp;&nbsp;     ret,pic_capt=vid_capt.read()<br>
-&nbsp;&nbsp;     cv2.imshow('Your Sketch',getmysketch(frame))<br>
+&nbsp;&nbsp;     cv2.imshow('Your Sketch',getmysketch(pic_capt))<br>
 &nbsp;&nbsp;     if cv2.waitKey(1)==13:<br>
 &nbsp;&nbsp;         break<br></i></td></tr></table>
 <ul><li>vid_capt=cv2.VideoCapture(0): It performs the function to open the webcam and to capture the video.</li>
