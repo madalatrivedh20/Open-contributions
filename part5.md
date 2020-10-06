@@ -74,15 +74,15 @@ Suppose gray scale values are from 0 (Pure Black) to 255(Pure White) , values gr
   <h3>Image captured through webcam initially</h3>
   <a href="image.png">image</a><br>
    <h3>Gray scale image</h3>
-  <a href="grayscale.png">image</a><br>
+  <a href="grayscale.png"></a><br>
    <h3>Blurred image</h3>
-  <a href="blur.png">image</a><br>
+  <a href="blur.png"></a><br>
   <h3>Edges</h3>
-  <a href="edges.png">img</a><br>
+  <a href="edges.png"></a><br>
   <h3>Threshold image</h3>
-  <a href="threshols.png">img</a><br>
+  <a href="threshols.png"></a><br>
   <h2>Output</h2>
-  <a href="threshols.png">img</a>
+  <a href="threshols.png"></a>
   
   
 
