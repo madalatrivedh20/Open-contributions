@@ -14,7 +14,7 @@ Perform face detection. It is used in the fields of Automobile,Security,Transpor
 <i>pip install numpy</i><br>
 <i>pip install OpenCV</i></p>
 <li><b>Step 2</b>:</li>
-<p>After installing the python modules we are all set to jump into the code for buliding a basic sketch app</p>.
+<p>After installing the python libraries we are all set to jump into the code for buliding a basic sketch app</p>.
 <table><tr><th>Python code for Sketch app</th></tr>
 <tr><td>import cv2<br>
 import numpy as np<br><br>
@@ -24,9 +24,9 @@ def sketch(image):<br>
 &nbsp;&nbsp;     grayimg=cv2.cvtColor(image,cv2.COLOR_BGR2GRAY)<br>
 &nbsp;&nbsp;     <h4># blurring the image</h4>
 &nbsp;&nbsp;     blurimg=cv2.GaussianBlur(grayimg,(3,3),0)<br>
-&nbsp;&nbsp;     <h4>extracting_edges</h4>
+&nbsp;&nbsp;     <h4># extracting edges</h4>
 &nbsp;&nbsp;     edges=cv2.Canny(blurimg,10,80)<br>
-&nbsp;&nbsp;     <h4>applying_threshold</h4>
+&nbsp;&nbsp;     <h4>#applying threshold</h4>
 &nbsp;&nbsp;     ret,mimg=cv2.threshold(edges,50,255,cv2.THRESH_BINARY_INV)<br>
 &nbsp;&nbsp;     return mimg<br>
 
